@@ -5,28 +5,12 @@ This project is a simple attendance system using PHP for user login and session 
 ## Project Structure
 
 
-## PHP Scripts
-
-### Login Script (`login.php`)
-Handles user login and sets session variables.
-
-### Dashboard Script (`dashboard.php`)
-Displays the logged-in user's details.
-
-### Logout Script (`logout.php`)
-Logs the user out by destroying the session.
-
 ## Python Script
 
 ### Attendance Script (`attendance.py`)
 Fetches attendance logs from a device, processes them, and sends them to a server.
 
 ## Usage
-
-1. **PHP**:
-   - Start a local server in the `php` directory.
-   - Access the login page via `login.php`.
-   - After logging in, you will be redirected to the `dashboard.php`.
 
 2. **Python**:
    - Ensure you have the necessary libraries installed (`zk`, `requests`, `pyttsx3`).
